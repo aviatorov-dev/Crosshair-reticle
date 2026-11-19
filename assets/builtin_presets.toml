@@ -1,0 +1,110 @@
+# Built-in presets. Missing fields take their defaults (see config/model.rs).
+
+[[presets]]
+id = "red-cross"
+name = "Красный крест"
+builtin = true
+[presets.crosshair]
+shape = "cross"
+color = "#FF3B3BFF"
+thickness = 2.0
+length = 8.0
+gap = 4.0
+[presets.crosshair.outline]
+enabled = true
+color = "#000000FF"
+thickness = 1.0
+opacity = 0.8
+
+[[presets]]
+id = "green-dot"
+name = "Зелёная точка"
+builtin = true
+[presets.crosshair]
+shape = "dot"
+color = "#3DFF7AFF"
+dot_size = 5.0
+[presets.crosshair.outline]
+enabled = true
+color = "#000000FF"
+thickness = 1.0
+opacity = 0.8
+
+[[presets]]
+id = "cyan-gap"
+name = "Циан с зазором"
+builtin = true
+[presets.crosshair]
+shape = "cross"
+color = "#33E6FFFF"
+thickness = 2.0
+length = 10.0
+gap = 7.0
+center_dot = true
+dot_size = 2.0
+
+[[presets]]
+id = "white-circle"
+name = "Белый круг"
+builtin = true
+[presets.crosshair]
+shape = "circle_dot"
+color = "#FFFFFFFF"
+thickness = 1.5
+radius = 14.0
+dot_size = 3.0
+[presets.crosshair.outline]
+enabled = true
+color = "#000000FF"
+thickness = 1.0
+opacity = 0.6
+
+[[presets]]
+id = "yellow-t"
+name = "Т-образный"
+builtin = true
+[presets.crosshair]
+shape = "t"
+color = "#FFE23DFF"
+thickness = 2.0
+length = 10.0
+gap = 3.0
+
+[[presets]]
+id = "magenta-x"
+name = "X-прицел"
+builtin = true
+[presets.crosshair]
+shape = "cross"
+color = "#FF4DE1FF"
+thickness = 2.0
+length = 8.0
+gap = 3.0
+rotation = 45.0
+
+[[presets]]
+id = "white-square"
+name = "Квадрат"
+builtin = true
+[presets.crosshair]
+shape = "square"
+color = "#FFFFFFFF"
+thickness = 2.0
+radius = 10.0
+[presets.crosshair.outline]
+enabled = true
+color = "#000000FF"
+thickness = 1.0
+opacity = 0.7
+
+[[presets]]
+id = "pixel-green"
+name = "Пиксельный 1 px"
+builtin = true
+[presets.crosshair]
+shape = "cross"
+color = "#00FF55FF"
+thickness = 1.0
+length = 6.0
+gap = 3.0
+pixel_perfect = true
